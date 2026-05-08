@@ -1,0 +1,49 @@
+{
+  "experiment": "codex-low-vs-xhigh-system-pulse",
+  "date": "2026-05-08",
+  "mapping": {
+    "implementation_a": "xhigh",
+    "implementation_b": "low"
+  },
+  "runs": {
+    "low": {
+      "stack": "PowerShell + WPF",
+      "wall_clock_seconds": 499.502,
+      "output_tokens_est": 10839,
+      "reasoning_output_tokens": 2743,
+      "install_to_running_seconds": 0.449,
+      "app_cpu_percent_avg": 0.15,
+      "app_ram_mb": 158.1,
+      "polling_hz_observed": 1.0,
+      "loc_total": 226,
+      "install_size_mb": 0.229,
+      "dependency_count": 0,
+      "asked_followup_questions": false,
+      "crashed_during_60s_observation": false,
+      "gpu_detection_correct": true,
+      "average_judge_score": 34.0
+    },
+    "xhigh": {
+      "stack": ".NET 8 WPF",
+      "wall_clock_seconds": 793.877,
+      "output_tokens_est": 27032,
+      "reasoning_output_tokens": 11335,
+      "install_to_running_seconds": 7.289,
+      "app_cpu_percent_avg": 0.088,
+      "app_ram_mb": 128.9,
+      "polling_hz_observed": 1.0,
+      "loc_total": 695,
+      "install_size_mb": 0.188,
+      "dependency_count": 0,
+      "asked_followup_questions": false,
+      "crashed_during_60s_observation": false,
+      "gpu_detection_correct": true,
+      "average_judge_score": 44.0
+    }
+  },
+  "notes": [
+    "CPU percent is normalized by logical processor count.",
+    "LOC excludes transcripts, metrics, screenshots, generated build folders, and orchestration files.",
+    "This is a one-task artifact comparison, not a statistically significant benchmark."
+  ]
+}

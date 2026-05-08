@@ -1,0 +1,22 @@
+# Build outputs
+**/bin/
+**/obj/
+**/dist/
+**/.vs/
+**/*.user
+**/*.suo
+**/TestResults/
+
+# Raw local experiment artifacts
+runs/
+judge_packet/
+judges/*-stderr.txt
+judges/*-raw.md
+judges/*events*.jsonl
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
