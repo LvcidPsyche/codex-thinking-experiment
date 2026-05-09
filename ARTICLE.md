@@ -45,16 +45,39 @@ That is one reason I like this experiment. Low did not faceplant. It made a cohe
 
 ![Quantitative table](https://raw.githubusercontent.com/LvcidPsyche/codex-thinking-experiment/main/assets/quantitative-table.png)
 
-| Metric | Low | xHigh |
-|---|---:|---:|
-| Wall-clock seconds | 499.5 | 793.9 |
-| Output tokens | 10,839 | 27,032 |
-| Reasoning output tokens | 2,743 | 11,335 |
-| Install to running | 0.449s | 7.289s |
-| App CPU avg | 0.150% | 0.088% |
-| App RAM | 158.1 MB | 128.9 MB |
-| LOC | 226 | 695 |
-| Average judge score | 34/50 | 44/50 |
+Metric comparisons:
+
+Wall-clock seconds:
+Low: 499.5
+xHigh: 793.9
+
+Output tokens:
+Low: 10,839
+xHigh: 27,032
+
+Reasoning output tokens:
+Low: 2,743
+xHigh: 11,335
+
+Install to running:
+Low: 0.449s
+xHigh: 7.289s
+
+App CPU avg:
+Low: 0.150%
+xHigh: 0.088%
+
+App RAM:
+Low: 158.1 MB
+xHigh: 128.9 MB
+
+LOC:
+Low: 226
+xHigh: 695
+
+Average judge score:
+Low: 34/50
+xHigh: 44/50
 
 xHigh was slower and more expensive. It also produced a bigger codebase. The question is whether that extra structure was useful or just decorative.
 
@@ -71,14 +94,31 @@ After all verdicts were in, the mapping was revealed:
 
 ![Judge scores](https://raw.githubusercontent.com/LvcidPsyche/codex-thinking-experiment/main/assets/judge-scores.png)
 
-| Axis | Low avg | xHigh avg |
-|---|---:|---:|
-| Functionality | 7.67 | 9.33 |
-| Design quality | 6.00 | 8.67 |
-| Code quality | 6.33 | 9.00 |
-| Decision quality | 8.00 | 8.33 |
-| Polish | 6.00 | 8.67 |
-| Total | 34.00 | 44.00 |
+Judge score averages:
+
+Functionality:
+Low: 7.67
+xHigh: 9.33
+
+Design quality:
+Low: 6.00
+xHigh: 8.67
+
+Code quality:
+Low: 6.33
+xHigh: 9.00
+
+Decision quality:
+Low: 8.00
+xHigh: 8.33
+
+Polish:
+Low: 6.00
+xHigh: 8.67
+
+Total:
+Low: 34.00
+xHigh: 44.00
 
 All three judges picked xHigh.
 
