@@ -14,7 +14,7 @@ The result: xHigh won all three blind judgments, averaging **44/50** versus **34
 
 That win was not free. xHigh used **2.49x output tokens** and took **1.59x wall-clock time**. The interesting part is what that extra thinking bought.
 
-![Screenshot comparison](assets/screenshot-comparison.png)
+![Screenshot comparison](https://raw.githubusercontent.com/LvcidPsyche/codex-thinking-experiment/main/assets/screenshot-comparison.png)
 
 ## The Setup
 
@@ -43,7 +43,7 @@ That is one reason I like this experiment. Low did not faceplant. It made a cohe
 
 ## The Numbers
 
-![Quantitative table](assets/quantitative-table.png)
+![Quantitative table](https://raw.githubusercontent.com/LvcidPsyche/codex-thinking-experiment/main/assets/quantitative-table.png)
 
 | Metric | Low | xHigh |
 |---|---:|---:|
@@ -69,7 +69,7 @@ After all verdicts were in, the mapping was revealed:
 - Implementation A = xHigh
 - Implementation B = Low
 
-![Judge scores](assets/judge-scores.png)
+![Judge scores](https://raw.githubusercontent.com/LvcidPsyche/codex-thinking-experiment/main/assets/judge-scores.png)
 
 | Axis | Low avg | xHigh avg |
 |---|---:|---:|

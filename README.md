@@ -9,6 +9,7 @@ The short version: xHigh won all three blind judgments, averaging 44/50 versus 3
 ## What Is In Here
 
 - `ARTICLE.md` - a long-form X Article draft for publishing the story.
+- `PUBLISHING.md` - notes for posting the article on X, including image upload order.
 - `TEASER_POST.md` - a short X post to share the article.
 - `RESULTS.md` - the measured results, judge scores, and findings.
 - `PROMPT.md` - the exact prompt used for both runs.
