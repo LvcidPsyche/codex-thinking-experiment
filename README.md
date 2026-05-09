@@ -1,5 +1,7 @@
 # Codex Low vs xHigh Thinking Experiment
 
+![Codex Low vs xHigh experiment header](assets/article-header.png)
+
 A small, public, lighthearted research artifact: same prompt, same starting state, two Codex reasoning levels, two runnable Windows desktop widgets, and three blind LLM judges.
 
 The short version: xHigh won all three blind judgments, averaging 44/50 versus 34/50 for Low. It also cost more time and tokens. That is the whole point of the experiment: compare the artifact, not just the vibe.
@@ -19,7 +21,7 @@ The short version: xHigh won all three blind judgments, averaging 44/50 versus 3
 - `apps/xhigh-system-pulse/` - the xHigh .NET 8 WPF app.
 - `apps/low-system-pulse/` - the Low PowerShell/WPF app.
 - `judges/` - cleaned judge verdicts.
-- `assets/` - postable charts and screenshots.
+- `assets/` - postable charts, screenshots, and the article header image.
 - `data/` - compact measurement data.
 
 Raw transcripts, local orchestration files, and temporary runner logs are intentionally excluded from the public repo. They are useful locally, but they make a public research repo worse.

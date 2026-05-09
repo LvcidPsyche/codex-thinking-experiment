@@ -1,5 +1,7 @@
 # Codex Low vs xHigh: Does More Thinking Build a Better App?
 
+![Article header](https://raw.githubusercontent.com/LvcidPsyche/codex-thinking-experiment/main/assets/article-header.png)
+
 I ran a tiny controlled experiment because the "reasoning knob" is one of those AI features that sounds obvious in theory and slippery in practice.
 
 If I ask the same model to think less or think much harder, do I actually get better software? Or do I just get a bigger transcript, a slower run, and the warm feeling that someone spent more tokens on my behalf?

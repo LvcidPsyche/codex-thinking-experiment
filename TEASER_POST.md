@@ -7,3 +7,6 @@ Same prompt. Same blank start. Two runnable Windows widgets. Three blind LLM jud
 xHigh won, but the cost side is the interesting part:
 
 [link to article]
+
+Repo with both apps and the experiment packet:
+https://github.com/LvcidPsyche/codex-thinking-experiment
